@@ -53,14 +53,18 @@ export default function Footer() {
           </div>
           <div className="flex items-center gap-4">
             <a
-              href="#"
+              href="https://x.com/briefnimbos"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="X (Twitter)"
               className="flex h-10 w-10 items-center justify-center rounded-full glass text-gray-400 transition-all hover:scale-110 hover:text-white hover:shadow-[0_0_20px_rgba(255,255,255,0.15)]"
             >
               <XLogo className="h-3.5 w-3.5" />
             </a>
             <a
-              href="#"
+              href="https://instagram.com/briefnimbos"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Instagram"
               className="flex h-10 w-10 items-center justify-center rounded-full glass text-gray-400 transition-all hover:scale-110 hover:text-white hover:shadow-[0_0_20px_rgba(255,255,255,0.15)]"
             >

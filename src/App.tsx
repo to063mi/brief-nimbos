@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import NewsGrid from '@/components/NewsGrid';
 import Sponsors from '@/components/Sponsors';
+import SupportUs from '@/components/SupportUs';
 import Footer from '@/components/Footer';
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Hero />
         <NewsGrid />
         <Sponsors />
+        <SupportUs />
       </main>
       <Footer />
     </div>
