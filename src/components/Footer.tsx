@@ -31,8 +31,8 @@ export default function Footer() {
               Tu día empieza mejor informado.
             </h2>
             <p className="mx-auto mt-4 max-w-md text-gray-400">
-              Únete a más de 12.000 lectores que ya reciben El Brief Nimbos cada
-              mañana. Gratis, para siempre.
+             La información clave de Chile y el mundo, 
+             sintetizada en tu correo antes de empezar tu día. Sin relleno.
             </p>
             <a
               href="#suscribete"

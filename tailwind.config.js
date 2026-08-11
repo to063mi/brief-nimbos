@@ -19,6 +19,7 @@ export default {
           blue: '#3b82f6',
           emerald: '#10b981',
           amber: '#f59e0b',
+          violet: '#8b5cf6',
         },
       },
       keyframes: {

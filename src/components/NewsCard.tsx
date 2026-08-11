@@ -24,6 +24,13 @@ const accentMap = {
     badge: 'bg-accent-amber/15 text-accent-amber border-accent-amber/30',
     dot: 'bg-accent-amber',
   },
+  violet: {
+    text: 'text-accent-violet',
+    border: 'group-hover:border-accent-violet/50',
+    glow: 'group-hover:shadow-[0_0_40px_rgba(139,92,246,0.25)]',
+    badge: 'bg-accent-violet/15 text-accent-violet border-accent-violet/30',
+    dot: 'bg-accent-violet',
+  },
 } as const;
 
 export default function NewsCard({ item, index }: { item: NewsItem; index: number }) {
@@ -77,13 +84,21 @@ export default function NewsCard({ item, index }: { item: NewsItem; index: numbe
           </div>
         </div>
 
-        <div className="mt-auto flex items-center justify-between border-t border-white/[0.06] pt-4">
-          <span className="text-xs text-gray-500">
-            Fuente: <span className="text-gray-300">{item.source}</span>
-          </span>
-          <ArrowUpRight
-            className={`h-4 w-4 text-gray-600 transition-all group-hover:-translate-y-0.5 group-hover:translate-x-0.5 ${a.text}`}
-          />
+        {/* PIE DE LA TARJETA CON ENLACE A LA FUENTE */}
+        <div className="mt-auto border-t border-white/[0.06] pt-4">
+          <a
+            href={item.sourceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-between group/link"
+          >
+            <span className="text-xs text-gray-500 transition-colors group-hover/link:text-gray-300">
+              Fuente: <span className="text-gray-300 underline underline-offset-2 decoration-gray-600 group-hover/link:decoration-white">{item.source}</span>
+            </span>
+            <ArrowUpRight
+              className={`h-4 w-4 text-gray-600 transition-all group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5 ${a.text}`}
+            />
+          </a>
         </div>
       </div>
     </motion.article>

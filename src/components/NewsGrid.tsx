@@ -22,12 +22,12 @@ export default function NewsGrid() {
             </h2>
           </div>
           <p className="max-w-sm text-sm text-gray-500">
-            Tres historias. Cero ruido. Curadas para que decidas mejor en menos
-            de tres minutos.
+            Cuatro historias. Cero ruido. Curadas para que decidas mejor en
+            menos de tres minutos.
           </p>
         </motion.div>
 
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {newsItems.map((item, i) => (
             <NewsCard key={item.id} item={item} index={i} />
           ))}
