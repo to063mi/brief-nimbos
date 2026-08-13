@@ -40,38 +40,38 @@ const rawNewsItems: RawNewsItem[] = [
 {
 "id": "politica-1",
 "category": "Política",
-"headline": "Gobierno ingresa reforma constitucional para crear nuevo estado de excepción",
-"hecho": "El Presidente José Antonio Kast firmó un proyecto de reforma constitucional en el marco de la Agenda contra el Crimen Organizado y el Terrorismo. La iniciativa busca consagrar la seguridad pública como un deber del Estado e incorporar un estado de excepción constitucional focalizado en zonas de alta vulnerabilidad. La medida facultará al Ejecutivo para intervenir en territorios amenazados por el crimen organizado.",
-"impacto": "Con este proyecto, las Fuerzas Armadas podrán prestar apoyo logístico, perimetral y de vigilancia a Carabineros y la PDI en áreas delictivas complejas. La iniciativa requerirá la aprobación del Congreso Nacional para sus renovaciones y facilitará la incautación de bienes ilícitos.",
-"source": "La Tercera",
-"sourceUrl": "https://www.latercera.com/"
+"headline": "Congreso despacha a ley ampliación de subsidio hipotecario y garantías estatales",
+"hecho": "El Congreso Nacional aprobó de forma unánime el proyecto que amplía el subsidio a la tasa de interés y las garantías del Fogaes. La medida incrementa a 6.000 UF el valor máximo de las viviendas elegibles e inyecta 30 mil nuevos cupos.",
+"impacto": "Esta ley busca reactivar el deprimido sector inmobiliario e impulsar el acceso de la clase media a la vivienda propia. Se estima que las tasas hipotecarias para los beneficiarios podrían caer desde el 4% al 3%.",
+"source": "Gobierno de Chile",
+"sourceUrl": "https://www.gob.cl/noticias/congreso-despacha-a-ley-ampliacion-del-subsidio-hipotecario-y-garantias-estatales/"
 },
 {
 "id": "economia-1",
 "category": "Economía",
-"headline": "Cobre ronda máximos históricos y empuja a la baja al dólar",
-"hecho": "El precio del cobre cotizó en torno a los US$ 6,54 por libra en la Bolsa de Metales de Londres, rozando su récord histórico impulsado por una caída superior al 40% en los inventarios disponibles. Paralelamente, el dólar en Chile inició la jornada con una baja de $4,2 ubicándose en los $914,7 en el mercado cambiario local. La fortaleza del peso responde también a la liquidación de posiciones de agentes no residentes.",
-"impacto": "El repunte en el valor del metal rojo incrementa la recaudación fiscal proyectada y reduce la presión sobre el tipo de cambio. Diversos analistas señalan que este ciclo de precios altos otorga un mayor espacio fiscal para los presupuestos de los próximos años.",
-"source": "Emol Economía",
-"sourceUrl": "https://www.emol.com/noticias/Economia/2026/08/11/1208145/dolar-mercado-cambiario-local.html"
+"headline": "Operadores financieros anticipan mayor inflación y prolongada mantención de tasas",
+"hecho": "La Encuesta de Operadores Financieros reveló que el mercado espera un alza del IPC de 0,3% en agosto y de 0,5% mensual en septiembre. Además, se ratificó que el Banco Central mantendrá la Tasa de Política Monetaria inalterada por un periodo prolongado.",
+"impacto": "El cambio en las expectativas consolida un escenario de mayor presión inflacionaria a mediano plazo. Esto mantendrá elevado el costo de endeudamiento para hogares y empresas, frenando una recuperación económica más ágil en el país.",
+"source": "Diario Financiero",
+"sourceUrl": "https://www.df.cl/economia-y-politica/macro/operadores-ven-una-mayor-inflacion-para-los-proximos-doce-meses-y-anticipan"
 },
 {
 "id": "corporativo-1",
 "category": "Corporativo",
-"headline": "Utilidades de SMU caen 91% por costos de reestructuración operacional",
-"hecho": "La matriz de Unimarc, SMU, reportó utilidades por $1.708 millones durante el primer semestre de 2026, lo que representa un descenso del 91% en comparación con los $19.162 millones obtenidos en el mismo periodo de 2025. Sin embargo, la compañía registró un aumento en sus ingresos consolidados y en el indicador Ebitda. El resultado neto estuvo presionado por los costos asociados a su plan de reorganización.",
-"impacto": "El mercado observa el proceso de reestructuración de la firma retail para evaluar el retorno a mayores márgenes de rentabilidad. A pesar de la caída puntual en las ganancias netas, el crecimiento de los ingresos demuestra la solidez de la operación de ventas en sus locales.",
+"headline": "Gobierno autoriza a Codelco a retener y capitalizar todas sus utilidades",
+"hecho": "El gobierno decidió que las ganancias de 2025 de la minera estatal, equivalentes a US$ 2.423 millones, no ingresarán al fisco. Estos recursos serán retenidos íntegramente por la compañía para amortizar pasivos y financiar sus proyectos estructurales.",
+"impacto": "La inédita medida otorga un alivio financiero crucial a Codelco, cuya deuda supera los US$ 27.000 millones tras años de alta exigencia de caja fiscal. La inyección de capital permitirá estabilizar su matriz productiva frente al retroceso de sus volúmenes operativos.",
 "source": "Diario Financiero",
-"sourceUrl": "https://www.df.cl/"
+"sourceUrl": "https://www.df.cl/opinion/editorial/nuevas-perspectivas-para-codelco"
 },
 {
 "id": "internacional-1",
 "category": "Internacional",
-"headline": "Estados Unidos evalúa nuevos aranceles a las manufacturas de cobre",
-"hecho": "El Departamento de Comercio de Estados Unidos inició un proceso de consulta pública bajo la Sección 232 para analizar la aplicación de aranceles a manufacturas derivadas del cobre. La propuesta normativa no afecta por el momento la importación de cobre refinado o a granel. Washington fundamenta la medida en razones de seguridad nacional y abastecimiento de su cadena industrial.",
-"impacto": "La decisión impacta directamente a Chile al encender alertas en el sector exportador nacional de productos elaborados y subproductos del cobre dirigidos a Estados Unidos. La revisión evidencia un aumento de las restricciones arancelarias mundiales que amenazan la dinamización del comercio exterior chileno.",
-"source": "Diario Financiero",
-"sourceUrl": "https://www.df.cl/economia_y_politica/comercio-exterior"
+"headline": "Embajador de China pide a Chile resistir injerencias frente a presiones",
+"hecho": "En un seminario de la Sofofa por los 20 años del Tratado de Libre Comercio, el embajador Niu Qingbao urgió a proteger la cooperación bilateral. El diplomático acusó que ciertas naciones distorsionan la seguridad nacional para imponer sanciones arancelarias injustificadas, en clara alusión a Estados Unidos.",
+"impacto": "El mensaje evidencia la creciente presión geopolítica sobre Chile en medio de la disputa comercial entre Beijing y Washington. Esta tensión amenaza con condicionar las futuras inversiones extranjeras en el país, especialmente en sectores estratégicos como la minería y el litio.",
+"source": "Emol",
+"sourceUrl": "https://www.emol.com/noticias/Economia/2026/08/12/1208319/chile-china-embajador.html"
 }
 ]
 
