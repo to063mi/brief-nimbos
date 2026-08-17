@@ -56,15 +56,6 @@ const rawNewsItems: RawNewsItem[] =[
 "sourceUrl": "https://www.latercera.com/pulso/noticia/fontaine-anuncia-la-entrega-de-resultados-de-codelco-por-division-y-pide-mas-facilidades-para-alianzas-con-los-privados/"
 },
 {
-"id": "internacional-1",
-"category": "Internacional",
-"headline": "Aranceles de EE.UU. al cobre obligan a recalcular carteras",
-"hecho": "El viernes 14 de agosto de 2026, Diario Financiero reportó que la sobretasa arancelaria de 12,5% aplicada por Washington en julio se suma a la amenaza de aranceles de 15% en 2027 y 30% en 2028 al cobre refinado. Esta incertidumbre está llevando a corredoras locales a recomendar acciones menos expuestas a Estados Unidos. La volatilidad se agrava ante la incertidumbre sobre la política de tasas de la Reserva Federal.",
-"impacto": "El principal producto de exportación de Chile queda directamente expuesto a la política comercial estadounidense. Esto condiciona el tipo de cambio, el IPSA y las decisiones de inversión para lo que resta de 2026.",
-"source": "Diario Financiero",
-"sourceUrl": "https://www.df.cl/senal-df/senales-financieras/las-cinco-mejores-acciones-para-esquivar-la-volatilidad-de-la-fed-y-eeuu"
-},
-{
 "id": "economia-1",
 "category": "Economía",
 "headline": "Exportaciones chilenas rompen récord y superan US$70.000 millones",
@@ -72,6 +63,15 @@ const rawNewsItems: RawNewsItem[] =[
 "impacto": "Confirma que el sector externo, liderado por cobre y litio pero con un aporte cada vez más relevante de alimentos, es el principal motor de la recuperación económica de 2026. Esto refuerza el superávit comercial y aporta divisas justo cuando el Banco Central revisa al alza sus proyecciones de crecimiento.",
 "source": "Diario Estrategia",
 "sourceUrl": "https://www.diarioestrategia.cl/texto-diario/mostrar/5984216/exportaciones-enero-julio-crecen-15-superan-us-70000-millones-alimentos-alcanzan-cifra-record"
+},
+{
+"id": "internacional-1",
+"category": "Internacional",
+"headline": "Aranceles de EE.UU. al cobre obligan a recalcular carteras",
+"hecho": "El viernes 14 de agosto de 2026, Diario Financiero reportó que la sobretasa arancelaria de 12,5% aplicada por Washington en julio se suma a la amenaza de aranceles de 15% en 2027 y 30% en 2028 al cobre refinado. Esta incertidumbre está llevando a corredoras locales a recomendar acciones menos expuestas a Estados Unidos. La volatilidad se agrava ante la incertidumbre sobre la política de tasas de la Reserva Federal.",
+"impacto": "El principal producto de exportación de Chile queda directamente expuesto a la política comercial estadounidense. Esto condiciona el tipo de cambio, el IPSA y las decisiones de inversión para lo que resta de 2026.",
+"source": "Diario Financiero",
+"sourceUrl": "https://www.df.cl/senal-df/senales-financieras/las-cinco-mejores-acciones-para-esquivar-la-volatilidad-de-la-fed-y-eeuu"
 }
 ]
 // Mapeo automático que inyecta imagen y accent a la aplicación
