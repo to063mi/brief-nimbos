@@ -36,43 +36,11 @@ const categoryConfig: Record<Category, { image: string; accent: NewsItem['accent
 };
 
 // Salida directa que copiarás desde Gemini
-const rawNewsItems: RawNewsItem[] =[
-{
-"id": "politica-1",
-"category": "Política",
-"headline": "TC valida invariabilidad tributaria pero elimina indemnizaciones estatales en megarreforma",
-"hecho": "El viernes 14 de agosto de 2026, un día después del fallo del Tribunal Constitucional, oficialismo y oposición se declararon satisfechos con la resolución sobre la megarreforma. El TC mantuvo vigente el pilar de invariabilidad tributaria a 20 años, pero eliminó las indemnizaciones estatales a privados por RCA anuladas. La presidenta de la CPC, Susana Jiménez, expresó 'moderado optimismo' por la certeza jurídica que otorga la ratificación de los contratos de inversión.",
-"impacto": "El pilar más sensible para atraer inversión extranjera sobrevivió al fallo, lo que entrega tranquilidad al empresariado. Persiste, sin embargo, el debate sobre cuánto se debilitó la iniciativa original del Gobierno.",
-"source": "Cooperativa.cl",
-"sourceUrl": "https://www.cooperativa.cl/noticias/economia/impuestos/megarreforma-gobierno-y-oposicion-se-adjudican-triunfo-tras-fallo-del-tc/2026-08-14/142412.html"
-},
-{
-"id": "economia-1",
-"category": "Economía",
-"headline": "Exportaciones chilenas superan US$70.000 millones entre enero y julio",
-"hecho": "La SUBREI informó este viernes 14 de agosto que las exportaciones de bienes acumularon US$70.603 millones entre enero y julio, un alza de 15% interanual que supera por primera vez esa barrera para el período. Solo en julio se exportaron US$10.248 millones, un 20% más que el año anterior y el mayor monto para ese mes desde que hay registros. La minería explicó el 61,4% de los envíos, con el cobre aportando US$35.605 millones y el litio US$3.713 millones, casi triplicando su valor. Las exportaciones de alimentos también marcaron un récord histórico de US$8.306 millones.",
-"impacto": "El sector externo, liderado por cobre y litio pero con un aporte creciente de alimentos, se confirma como el principal motor de la recuperación económica de 2026. El resultado refuerza el superávit comercial y aporta divisas justo cuando el Banco Central revisa al alza sus proyecciones de crecimiento.",
-"source": "Diario Estrategia",
-"sourceUrl": "https://www.diarioestrategia.cl/texto-diario/mostrar/5984216/exportaciones-enero-julio-crecen-15-superan-us-70000-millones-alimentos-alcanzan-cifra-record"
-},
-{
-"id": "corporativo-1",
-"category": "Corporativo",
-"headline": "Codelco reportará resultados por división y evalúa vender participaciones en privados",
-"hecho": "El presidente del directorio de Codelco, Bernardo Fontaine, reveló este domingo 16 de agosto en Mesa Central de Canal 13 que la estatal comenzará a publicar sus resultados y flujo de caja por división. Reconoció una 'crisis de desempeño', con costos aproximadamente 50% más altos que los de las grandes mineras del mundo. Confirmó además que la empresa evalúa vender participaciones en privados y cerrar un nuevo acuerdo con Pucobre por el proyecto Tovaku.",
-"impacto": "El anuncio marca un giro en la transparencia y gestión de la principal cuprífera estatal, justo cuando Chile depende más que nunca del cobre para sostener su crecimiento. La evaluación de venta de activos quedará definida en noviembre.",
-"source": "La Tercera (Pulso)",
-"sourceUrl": "https://www.latercera.com/pulso/noticia/fontaine-anuncia-la-entrega-de-resultados-de-codelco-por-division-y-pide-mas-facilidades-para-alianzas-con-los-privados/"
-},
-{
-"id": "internacional-1",
-"category": "Internacional",
-"headline": "Aranceles de EEUU al cobre obligan a recalcular carteras de acciones chilenas",
-"hecho": "Diario Financiero reportó este viernes 14 de agosto que la sobretasa arancelaria de 12,5% aplicada por Washington en julio se suma a la amenaza de nuevos aranceles de 15% en 2027 y 30% en 2028 al cobre refinado. Ante ese escenario, corredoras locales están recomendando acciones con menor exposición a Estados Unidos. La incertidumbre se profundiza por la política de tasas de la Reserva Federal, que condiciona las decisiones de inversión de corto plazo.",
-"impacto": "El principal producto de exportación de Chile queda directamente expuesto a la política comercial estadounidense, lo que condiciona el tipo de cambio y el IPSA. La situación también influye en las decisiones de inversión para lo que resta de 2026.",
-"source": "Diario Financiero",
-"sourceUrl": "https://www.df.cl/senal-df/senales-financieras/las-cinco-mejores-acciones-para-esquivar-la-volatilidad-de-la-fed-y-eeuu"
-}
+const rawNewsItems: RawNewsItem[] = [
+{ "id": "politica-1", "category": "Política", "headline": "Frei critica la 'permisología' y culpa una década de proyectos frenados", "hecho": "Este miércoles 19 de agosto de 2026, el expresidente Eduardo Frei volvió a cuestionar las trabas a la inversión en Chile. Apuntó contra el exceso de observaciones que, a su juicio, retrasan la ejecución de proyectos. Fue consultado sobre el escenario económico y las oportunidades de desarrollo ligadas a la inversión.", "impacto": "Reabre el debate transversal sobre la 'permisología' como freno estructural al crecimiento. Ocurre justo cuando el Gobierno de Kast impulsa su agenda de simplificación regulatoria y el mercado revisa a la baja las proyecciones de PIB para 2026.", "source": "Emol Economía", "sourceUrl": "https://www.emol.com/noticias/Economia/2026/08/19/1208957/frei-permisologia-chile.html" },
+{ "id": "economia-1", "category": "Economía", "headline": "Banco Central confirma que el PIB cayó 0,2% en el segundo trimestre", "hecho": "Diario Financiero analizó el informe de Cuentas Nacionales del segundo trimestre publicado ayer por el Banco Central, que registró una caída del PIB de 0,2% anual entre abril y junio, tras el -0,3% del primer trimestre. La recesión técnica se evitó solo en términos desestacionalizados. El propio Banco Central redujo su proyección de crecimiento 2026 a un rango de 1%-1,75%, mientras la última Encuesta de Expectativas Económicas sitúa el consenso de mercado en 1,3%.", "impacto": "Confirma que, pese al cambio de gobierno y el repunte de expectativas empresariales de inicios de año, la actividad económica chilena sigue estancada. Esto obliga a preguntarse si la reactivación llegará recién en 2027 y presiona al Ejecutivo a gestionar expectativas ciudadanas mientras administra la fragilidad fiscal.", "source": "Diario Financiero", "sourceUrl": "https://www.df.cl/opinion/editorial/economia-estancada-reactivacion-en-2027" },
+{ "id": "corporativo-1", "category": "Corporativo", "headline": "Subtel ejecuta garantías por US$14 millones a WOM tras informe de Contraloría", "hecho": "Subtel resolvió a comienzos de agosto ejecutar íntegramente las garantías correspondientes a las cinco macrozonas de la Fibra Óptica Nacional operadas por WOM. El monto asciende a cerca de 316 mil UF, equivalentes a unos US$14 millones. La medida llegó tras un informe de Contraloría que cuestionó la gestión de incumplimientos de la compañía. El tema escaló al Congreso, que pedirá una sesión especial en el Senado.", "impacto": "Profundiza la crisis regulatoria de WOM en un momento en que la compañía también enfrenta observaciones por el despliegue de su red 5G. Existe riesgo de nuevas sanciones y mayor escrutinio parlamentario sobre la gestión de infraestructura crítica de telecomunicaciones.", "source": "Emol Economía", "sourceUrl": "https://www.emol.com/noticias/Economia/2026/08/19/1208960/incumplimientos-fon-wom-garrido.html" },
+{ "id": "internacional-1", "category": "Internacional", "headline": "Cobre corrige tras récord histórico mientras el mercado espera las actas de la Fed", "hecho": "Diario Financiero reportó que el cobre caía 1% hasta los US$6,42 la libra, en una toma de utilidades tras el récord histórico marcado días atrás. El mercado espera hoy la publicación de las actas de la reunión de julio de la Reserva Federal, en la que el FOMC mantuvo la tasa por decisión dividida, con tres votos disidentes a favor de un alza. Los inversionistas también evalúan el enfoque comunicacional del nuevo presidente de la Fed, Kevin Warsh, más opaco que el de su antecesor Jerome Powell.", "impacto": "Las actas de la Fed son clave para el peso chileno y el precio del cobre, principal producto de exportación del país. Un tono más restrictivo podría fortalecer al dólar global y presionar al alza el tipo de cambio local, mientras que señales más moderadas favorecerían un nuevo repunte del metal rojo justo cuando el Banco Central revisa a la baja sus proyecciones de crecimiento para 2026.", "source": "Diario Financiero", "sourceUrl": "https://www.df.cl/primer-click/el-mercado-de-bonos-da-un-respiro-y-la-fed-concentrara-las-miradas-de-los" }
 ]
 // Mapeo automático que inyecta imagen y accent a la aplicación
 export const newsItems: NewsItem[] = rawNewsItems.map((item) => ({

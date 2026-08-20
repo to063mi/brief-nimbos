@@ -5,12 +5,12 @@ export interface TickerIndicator {
 }
 
 export const tickerIndicators: TickerIndicator[] = [
-{ "label": "Dólar Observado", "value": "$913,15", "trend": "neutral" },
-{ "label": "UF", "value": "$40.854,01", "trend": "up" },
-{ "label": "Euro", "value": "$1.052,92", "trend": "neutral" },
-{ "label": "Cobre", "value": "US$6,59/lb", "trend": "up" },
-{ "label": "IPSA", "value": "11.042,69 pts", "trend": "up" },
-{ "label": "Bitcoin", "value": "~US$63.057", "trend": "neutral" },
-{ "label": "IPC anual", "value": "3,5%", "trend": "down" },
+{ "label": "Dólar Observado (CLP)", "value": "$922,12", "trend": "up" },
+{ "label": "UF", "value": "$40.857,96", "trend": "up" },
+{ "label": "Euro (CLP)", "value": "$1.067,39", "trend": "up" },
+{ "label": "Cobre (US$/lb)", "value": "US$6,61", "trend": "up" },
+{ "label": "IPSA", "value": "11.186,57 pts", "trend": "up" },
+{ "label": "Bitcoin (USD)", "value": "~US$64.500", "trend": "neutral" },
+{ "label": "IPC Anual", "value": "3,5%", "trend": "down" },
 { "label": "Imacec", "value": "+2,4%", "trend": "up" }
 ]
