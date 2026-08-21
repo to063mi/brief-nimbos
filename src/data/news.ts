@@ -37,10 +37,42 @@ const categoryConfig: Record<Category, { image: string; accent: NewsItem['accent
 
 // Salida directa que copiarás desde Gemini
 const rawNewsItems: RawNewsItem[] = [
-{ "id": "politica-1", "category": "Política", "headline": "Frei critica la 'permisología' y culpa una década de proyectos frenados", "hecho": "Este miércoles 19 de agosto de 2026, el expresidente Eduardo Frei volvió a cuestionar las trabas a la inversión en Chile. Apuntó contra el exceso de observaciones que, a su juicio, retrasan la ejecución de proyectos. Fue consultado sobre el escenario económico y las oportunidades de desarrollo ligadas a la inversión.", "impacto": "Reabre el debate transversal sobre la 'permisología' como freno estructural al crecimiento. Ocurre justo cuando el Gobierno de Kast impulsa su agenda de simplificación regulatoria y el mercado revisa a la baja las proyecciones de PIB para 2026.", "source": "Emol Economía", "sourceUrl": "https://www.emol.com/noticias/Economia/2026/08/19/1208957/frei-permisologia-chile.html" },
-{ "id": "economia-1", "category": "Economía", "headline": "Banco Central confirma que el PIB cayó 0,2% en el segundo trimestre", "hecho": "Diario Financiero analizó el informe de Cuentas Nacionales del segundo trimestre publicado ayer por el Banco Central, que registró una caída del PIB de 0,2% anual entre abril y junio, tras el -0,3% del primer trimestre. La recesión técnica se evitó solo en términos desestacionalizados. El propio Banco Central redujo su proyección de crecimiento 2026 a un rango de 1%-1,75%, mientras la última Encuesta de Expectativas Económicas sitúa el consenso de mercado en 1,3%.", "impacto": "Confirma que, pese al cambio de gobierno y el repunte de expectativas empresariales de inicios de año, la actividad económica chilena sigue estancada. Esto obliga a preguntarse si la reactivación llegará recién en 2027 y presiona al Ejecutivo a gestionar expectativas ciudadanas mientras administra la fragilidad fiscal.", "source": "Diario Financiero", "sourceUrl": "https://www.df.cl/opinion/editorial/economia-estancada-reactivacion-en-2027" },
-{ "id": "corporativo-1", "category": "Corporativo", "headline": "Subtel ejecuta garantías por US$14 millones a WOM tras informe de Contraloría", "hecho": "Subtel resolvió a comienzos de agosto ejecutar íntegramente las garantías correspondientes a las cinco macrozonas de la Fibra Óptica Nacional operadas por WOM. El monto asciende a cerca de 316 mil UF, equivalentes a unos US$14 millones. La medida llegó tras un informe de Contraloría que cuestionó la gestión de incumplimientos de la compañía. El tema escaló al Congreso, que pedirá una sesión especial en el Senado.", "impacto": "Profundiza la crisis regulatoria de WOM en un momento en que la compañía también enfrenta observaciones por el despliegue de su red 5G. Existe riesgo de nuevas sanciones y mayor escrutinio parlamentario sobre la gestión de infraestructura crítica de telecomunicaciones.", "source": "Emol Economía", "sourceUrl": "https://www.emol.com/noticias/Economia/2026/08/19/1208960/incumplimientos-fon-wom-garrido.html" },
-{ "id": "internacional-1", "category": "Internacional", "headline": "Cobre corrige tras récord histórico mientras el mercado espera las actas de la Fed", "hecho": "Diario Financiero reportó que el cobre caía 1% hasta los US$6,42 la libra, en una toma de utilidades tras el récord histórico marcado días atrás. El mercado espera hoy la publicación de las actas de la reunión de julio de la Reserva Federal, en la que el FOMC mantuvo la tasa por decisión dividida, con tres votos disidentes a favor de un alza. Los inversionistas también evalúan el enfoque comunicacional del nuevo presidente de la Fed, Kevin Warsh, más opaco que el de su antecesor Jerome Powell.", "impacto": "Las actas de la Fed son clave para el peso chileno y el precio del cobre, principal producto de exportación del país. Un tono más restrictivo podría fortalecer al dólar global y presionar al alza el tipo de cambio local, mientras que señales más moderadas favorecerían un nuevo repunte del metal rojo justo cuando el Banco Central revisa a la baja sus proyecciones de crecimiento para 2026.", "source": "Diario Financiero", "sourceUrl": "https://www.df.cl/primer-click/el-mercado-de-bonos-da-un-respiro-y-la-fed-concentrara-las-miradas-de-los" }
+{
+"id": "politica-1",
+"category": "Política",
+"headline": "Gremio del gas recurrirá al TC por reconexión de clientes en mora",
+"hecho": "El jueves 20 de agosto de 2026, Diario Financiero confirmó que la Asociación de Empresas de Gas Natural (AGN) recurrirá en las próximas horas al Tribunal Constitucional contra una indicación incorporada como artículo 31 en la ley de reconstrucción nacional. La norma crea un régimen permanente de reconexión de servicios en zonas de catástrofe, incluso para clientes en mora. El gremio considera la medida inconstitucional.",
+"impacto": "La disputa tensiona al Congreso, el Ejecutivo y el sector energético en medio del proceso de reconstrucción post-catástrofe. El gremio advierte riesgos para la seguridad del suministro si la norma se mantiene.",
+"source": "Diario Financiero",
+"sourceUrl": "https://www.df.cl/empresas/energia/gremio-del-gas-alista-ofensiva-ante-el-tc-por-indicacion-de-ley-miscelanea"
+},
+{
+"id": "economia-1",
+"category": "Economía",
+"headline": "Pampa Investments de la familia Ponce ingresará al Ipsa",
+"hecho": "El jueves 20 de agosto de 2026, nuam anunció la nueva composición del Ipsa, que a partir del 1 de septiembre pasará de 30 a 31 empresas. El índice adoptará una metodología MSCI con número variable de componentes, revisiones trimestrales y mayor ponderación del free float. Pampa Investments, vehículo de inversión de Julio Ponce Lerou en SQM hoy encabezado por Francisca Ponce Pinochet, se incorpora al selectivo.",
+"impacto": "Cambia la metodología y periodicidad de revisión del principal índice bursátil chileno, alineándolo con Colombia y Perú. Da entrada a un nuevo actor relevante ligado a SQM en la bolsa local.",
+"source": "La Tercera Pulso",
+"sourceUrl": "https://www.latercera.com/pulso/noticia/pampa-investments-de-la-familia-ponce-ingresara-al-ipsa/"
+},
+{
+"id": "corporativo-1",
+"category": "Corporativo",
+"headline": "Copec aclara aporte a Arauco y sincera valor de Puerto Coronel",
+"hecho": "El jueves 20 de agosto de 2026, Copec precisó que el compromiso de aporte de US$450 millones a Arauco no es una inyección directa de capital. Corresponde a la venta del 50% que Arauco poseía en Puerto Coronel a Neltume Ports por US$65 millones, recibidos el 12 de agosto. La operación generará una utilidad de US$26 millones para Arauco en el tercer trimestre.",
+"impacto": "Aclara la estructura financiera de una de las mayores forestales del país y su relación con el mercado portuario. Tendrá efecto directo en los resultados del tercer trimestre de Arauco.",
+"source": "Diario Financiero",
+"sourceUrl": "https://www.df.cl/empresas/energia/empresas-copec-aclara-apoyo-en-capital-a-arauco-y-sincera-valor-de-puerto"
+},
+{
+"id": "internacional-1",
+"category": "Internacional",
+"headline": "Amazon invertirá US$2.000 millones en Prime Video en Latinoamérica",
+"hecho": "El jueves 20 de agosto de 2026, Amazon anunció en el evento Prime Video Presents Latin America, en Ciudad de México, una inversión de US$2.000 millones entre 2027 y 2030. Los fondos se destinarán a México, Brasil, Argentina, Colombia y Chile, en producciones originales, contenido adquirido y derechos deportivos.",
+"impacto": "Representa una inyección relevante de capital extranjero al sector audiovisual chileno. El plan proyecta más de 25 nuevos títulos regionales para su primer año.",
+"source": "Diario Financiero",
+"sourceUrl": "https://www.df.cl/df-sud/amazon-invertira-us-2-000-millones-en-prime-video-en-america-latina-y"
+}     
 ]
 // Mapeo automático que inyecta imagen y accent a la aplicación
 export const newsItems: NewsItem[] = rawNewsItems.map((item) => ({
